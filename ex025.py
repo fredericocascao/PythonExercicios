@@ -1,6 +1,6 @@
-nome = input('Digite um nome: ')
+nome = input('Digite um nome: ').strip()
 
 print(nome.find('Silva') != -1)  # verifica se o nome contém 'Silva'
-print('Silva' in nome)  # verifica se 'Silva' está no nome
+print('silva' in nome.lower())  # verifica se 'Silva' está no nome
 
 
